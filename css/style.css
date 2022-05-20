@@ -1,0 +1,160 @@
+body {
+    font-family: 'Roboto Flex', sans-serif;
+}
+
+ul {
+    list-style: none;
+}
+
+.quizapp {
+    width: 800px;
+    margin: 50px auto;
+    background-color: #F7F5F2;
+    padding: 40px;
+}
+
+.info {
+    background-color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.info h4 {
+    color: #004d73;
+    margin: 0px;
+    text-transform: capitalize;
+}
+
+.info span {
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+.quiz {
+    padding: 30px;
+    background-color: white;
+}
+
+.quiz form h3 {
+    font-size: 30px;
+
+}
+
+.quiz form {
+    padding: 30px;
+
+}
+
+.answer {
+    padding: 30px;
+    background-color: #F7F5F2;
+    position: relative;
+
+}
+
+ .answer div{
+background-color: white;
+    font-size: 20px;
+    text-transform: capitalize;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 30px;
+    width: 600px;
+    cursor: pointer;
+    display: flex;
+    gap: 20px;
+    align-items: center;
+
+
+
+
+} 
+
+label:not(:last-child) {
+    border-bottom: 1px solid grey;
+}
+
+input {
+
+ 
+}
+
+button {
+    margin: 20px auto;
+    width: 100%;
+    font-size: 40px;
+    color: white;
+    background-color: #2155CD;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    text-transform: capitalize;
+    padding: 15px;
+    cursor: pointer;
+
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    margin: 20px auto;
+    background-color: white;
+
+}
+
+.bullets {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.bullet {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    border: 2px solid #ccc;
+}
+
+.select {
+    background-color: rgb(74, 74, 238);
+}
+
+.time {}
+
+p {
+    font-size: 30px;
+}
+
+p .status {
+    color: #2155CD;
+    text-transform: uppercase;
+    font-size: 30px;
+}
+
+.right {
+    font-size: 30px;
+    color: #2155CD;
+    text-transform: uppercase;
+}
+
+
+.final{
+    font-weight: 30px;
+    font-style: italic;
+    text-align: center;
+    color: red;
+    font-size: 30px;
+}
+.finalresult{
+    text-align: center;
+    font-style: italic;
+    color:blue;
+    font-size: 25px;
+    
+}
